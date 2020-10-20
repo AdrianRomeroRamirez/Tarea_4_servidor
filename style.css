@@ -1,0 +1,96 @@
+.error {
+    font-family: Verdana, Arial, sans-serif; 
+    font-size: 0.7em;
+    color: #900;
+    background-color : #ffff00;
+}
+
+#login fieldset {
+    position: absolute;
+    left: 350px;
+    top: 350px;
+    margin-left: -115px;
+    margin-top: -80px;
+    padding:10px;
+    border:1px solid #ccc;
+    background-color: #eee;
+}
+
+#login legend {
+    font-family : Arial, sans-serif;
+    font-size: 1.3em;
+    font-weight:bold;
+    color:#333;
+}
+
+#login .campo {
+    margin-top:8px;
+    margin-bottom: 10px;
+}
+
+#login label {
+    font-family : Arial, sans-serif;
+    font-size:0.8em;
+    font-weight: bold;
+}
+
+
+#login input[type="text"], #login input[type="password"] {
+    font-family : Arial, Verdana, sans-serif;
+    font-size: 0.8em;
+    line-height:140%;
+    color : #000; 
+    padding : 3px; 
+    border : 1px solid #999;
+    height:18px;
+    width:220px;
+}
+
+#login input[type="submit"] {
+    height:30px;
+    padding-left:0px;
+}
+
+#tablaMovimientos {
+    position: absolute;
+    left: 200px;
+    top: 200px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;
+    margin: 45px;
+    width: 480px;
+    text-align: center;
+    border-collapse: collapse; 
+}
+
+#tablaMovimientos th {
+    font-size: 13px;
+    font-weight: normal;
+    padding: 8px; 
+    background: #b9c9fe;
+    border-top: 4px solid #aabcfe;  
+    border-bottom: 1px solid #fff; 
+    color: #039; 
+}
+
+#tablaMovimientos td {
+    padding: 8px;    
+    background: #e8edff;   
+    border-bottom: 1px solid #fff;
+    color: #669; 
+    border-top: 1px solid transparent; 
+}
+
+#tablaMovimientos tr:hover td {
+    background: #d0dafd; 
+    color: #339; 
+}
+
+#colores p {
+    display: inline;
+    font-size: 22px;
+    text-shadow: 1px  0px 0px black,
+        0px  1px 0px black,
+        -1px  0px 0px black,
+        0px -1px 0px black;
+}
